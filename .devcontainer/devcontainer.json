@@ -1,0 +1,24 @@
+{
+  "name": "Jupyter Notebook Assignment",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/local/bin/python",
+        "jupyter.jupyterServerType": "local",
+        "terminal.integrated.defaultProfile.linux": "bash"
+      },
+      "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter",
+        "Leytton.jupyter-to-markdown"
+      ]}
+  },
+  
+  "postCreateCommand": "pip install -r requirements.txt",
+
+  "remoteUser": "vscode"
+}
