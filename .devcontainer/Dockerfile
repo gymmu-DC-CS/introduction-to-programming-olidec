@@ -16,5 +16,5 @@ RUN apt-get update && apt-get install -y \
 RUN useradd -m vscode
 USER vscode
 
-
+ENV PATH="/home/vscode/.local/bin:${PATH}"
 WORKDIR /workspace
