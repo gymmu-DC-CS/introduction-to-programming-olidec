@@ -1,0 +1,1 @@
+curl https://raw.githubusercontent.com/olidec/Introduction/refs/heads/main/.devcontainer/devcontainer.json -o ./.devcontainer/devcontainer.json
