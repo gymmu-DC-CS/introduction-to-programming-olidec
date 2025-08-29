@@ -9,7 +9,8 @@
       "settings": {
         "python.defaultInterpreterPath": "/usr/local/bin/python",
         "jupyter.jupyterServerType": "local",
-        "terminal.integrated.defaultProfile.linux": "bash"
+        "terminal.integrated.defaultProfile.linux": "bash",
+        "chat.agent.enabled": false
       },
       "extensions": [
         "ms-python.python",
