@@ -1,0 +1,1 @@
+mkdir -p Bilderraetsel && cd Bilderraetsel && curl  --remote-name-all https://raw.githubusercontent.com/olidec/utilities/refs/heads/main/Bilderraetsel/{color-smiley.ppm,farb-pixel.ppm,mystery-animal.ppm,mystery-letter.pbm} && cd ..
