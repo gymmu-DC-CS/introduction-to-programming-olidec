@@ -1,0 +1,1 @@
+curl -o "Cryptography.ipynb" https://raw.githubusercontent.com/cedricgeissmann/iskript/refs/heads/master/sus/notebooks/05-Cryptography.ipynb
